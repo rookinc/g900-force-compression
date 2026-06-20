@@ -1,0 +1,20 @@
+{
+  "schema": "g900.force.compression.metrics",
+  "version": "0.1",
+  "status": "declared",
+  "metrics": [
+    "support_size",
+    "support_radius",
+    "mean_distance_to_receipt_home",
+    "maximum_distance_to_receipt_home",
+    "support_entropy",
+    "concentration_ratio"
+  ],
+  "boundary": {
+    "physical_gravity_claim": false,
+    "mass_claim": false,
+    "energy_claim": false,
+    "curvature_claim": false,
+    "body_mutation": false
+  }
+}
