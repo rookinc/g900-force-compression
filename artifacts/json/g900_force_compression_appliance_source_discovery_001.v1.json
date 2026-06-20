@@ -1,0 +1,37 @@
+{
+  "schema": "g900.force.compression.appliance.source.discovery",
+  "version": "0.1",
+  "status": "appliance_source_discovery_recorded",
+  "audit_pass": true,
+  "lab_path": "/data/data/com.termux/files/home/dev/cori/aletheos.ai/public_html/labs/g900_observatory",
+  "candidate_appliance_source_count": 444,
+  "missing_lab_count": 0,
+  "runtime_js_count": 4,
+  "runtime_html_count": 0,
+  "backup_count": 40,
+  "terms": [
+    "force",
+    "compression",
+    "gravity",
+    "candidate",
+    "receipt",
+    "information",
+    "transport",
+    "permission",
+    "channel",
+    "return_cell",
+    "tracer",
+    "smear",
+    "render_contract",
+    "apparatus",
+    "quartz",
+    "camera"
+  ],
+  "boundary": {
+    "appliance_interpreted": false,
+    "compression_shadow_admitted": false,
+    "force_renderer_admitted": false,
+    "physical_gravity_claim": false,
+    "body_mutation": false
+  }
+}
