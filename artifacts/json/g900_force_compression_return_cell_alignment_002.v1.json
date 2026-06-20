@@ -1,0 +1,38 @@
+{
+  "schema": "g900.force.compression.return_cell.alignment",
+  "version": "0.1",
+  "status": "positive_metric_distinction_recorded",
+  "audit_pass": true,
+  "source_artifact": "artifacts/json/g900_force_compression_return_cell_metric_probe_001.v1.json",
+  "compression_signature": true,
+  "compression_subtype_candidate": "homeward_alignment_compression",
+  "metric_shift": {
+    "mean_distance_to_receipt_home": {
+      "before": 2.75,
+      "after": 0.0
+    },
+    "support_radius": {
+      "before": 5,
+      "after": 0
+    },
+    "support_size": {
+      "before": 3,
+      "after": 3
+    },
+    "support_entropy": {
+      "before": 1.5,
+      "after": 1.5
+    }
+  },
+  "interpretation": {
+    "support_shrinkage": false,
+    "homeward_alignment": true
+  },
+  "boundary": {
+    "metric_distinction_only": true,
+    "compression_shadow_admitted": false,
+    "physical_gravity_claim": false,
+    "body_mutation": false,
+    "force_renderer": false
+  }
+}
