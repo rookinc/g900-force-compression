@@ -1,0 +1,16 @@
+{
+  "schema": "g900.force.compression.discussion_seed",
+  "version": "0.1",
+  "status": "discussion_skeleton_written",
+  "audit_pass": true,
+  "section": "sections/04_discussion.tex",
+  "source_range": "artifacts 001-017 and sections 018-019",
+  "boundary": {
+    "manuscript_prose_only": true,
+    "new_theorem_claim": false,
+    "global_compression_shadow_admitted": false,
+    "physical_gravity_claim": false,
+    "force_renderer_admitted": false,
+    "body_mutation": false
+  }
+}
