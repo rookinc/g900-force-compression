@@ -1,0 +1,49 @@
+{
+  "schema": "g900.force.compression.return_cell.replay",
+  "version": "0.1",
+  "status": "return_cell_replay_audit_recorded",
+  "audit_pass": true,
+  "replay_count": 4,
+  "all_replays_preserve_signature": true,
+  "replays": [
+    {
+      "replay_id": "original",
+      "mean_before": 2.75,
+      "mean_after": 0.0,
+      "radius_before": 5,
+      "radius_after": 0,
+      "signature": true
+    },
+    {
+      "replay_id": "reverse_rows",
+      "mean_before": 2.75,
+      "mean_after": 0.0,
+      "radius_before": 5,
+      "radius_after": 0,
+      "signature": true
+    },
+    {
+      "replay_id": "sorted_pairs",
+      "mean_before": 2.75,
+      "mean_after": 0.0,
+      "radius_before": 5,
+      "radius_after": 0,
+      "signature": true
+    },
+    {
+      "replay_id": "unique_support",
+      "mean_before": 2.6666666666666665,
+      "mean_after": 0.0,
+      "radius_before": 5,
+      "radius_after": 0,
+      "signature": true
+    }
+  ],
+  "boundary": {
+    "replay_audit_only": true,
+    "compression_shadow_admitted": false,
+    "physical_gravity_claim": false,
+    "force_renderer_admitted": false,
+    "body_mutation": false
+  }
+}
