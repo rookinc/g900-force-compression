@@ -1,0 +1,45 @@
+{
+  "schema": "g900.force.compression.receipt.search",
+  "version": "0.1",
+  "status": "initialized",
+  "audit_pass": null,
+  "candidate_count": 5,
+  "metric_count": 6,
+  "candidates": [
+    {
+      "id": "six_nine",
+      "compression_signature": null,
+      "replay_stable": null,
+      "perturbation_stable": null
+    },
+    {
+      "id": "null_well_surface",
+      "compression_signature": null,
+      "replay_stable": null,
+      "perturbation_stable": null
+    },
+    {
+      "id": "return_cell_receipts",
+      "compression_signature": null,
+      "replay_stable": null,
+      "perturbation_stable": null
+    },
+    {
+      "id": "inward_boundary_receipts",
+      "compression_signature": null,
+      "replay_stable": null,
+      "perturbation_stable": null
+    },
+    {
+      "id": "receipt_home_candidates",
+      "compression_signature": null,
+      "replay_stable": null,
+      "perturbation_stable": null
+    }
+  ],
+  "boundary": {
+    "physical_gravity_claim": false,
+    "body_mutation": false,
+    "force_renderer": false
+  }
+}
