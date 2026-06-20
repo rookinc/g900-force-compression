@@ -1,0 +1,18 @@
+{
+  "schema": "g900.force.compression.uniqueness_section",
+  "version": "0.1",
+  "status": "uniqueness_section_written",
+  "audit_pass": true,
+  "section": "sections/07_uniqueness.tex",
+  "main_includes_section": true,
+  "source_artifact": "artifacts/json/g900_force_compression_phase_checkpoint_v3_034.v1.json",
+  "boundary": {
+    "manuscript_prose_only": true,
+    "tested_family_uniqueness_only": true,
+    "global_uniqueness_claim": false,
+    "global_compression_shadow_admitted": false,
+    "physical_gravity_claim": false,
+    "force_renderer_admitted": false,
+    "body_mutation": false
+  }
+}
