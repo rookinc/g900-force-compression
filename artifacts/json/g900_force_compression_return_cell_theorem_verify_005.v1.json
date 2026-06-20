@@ -1,0 +1,49 @@
+{
+  "schema": "g900.force.compression.return_cell.theorem_verify",
+  "version": "0.1",
+  "status": "return_cell_home_alignment_theorem_verified",
+  "audit_pass": true,
+  "verified_statement": "For the admitted return-cell one-step information transport, the source support maps exactly into the admitted target-home slot set under the tested finite slot-distance metric.",
+  "source_artifacts": [
+    "artifacts/json/g900_force_compression_return_cell_metric_probe_001.v1.json",
+    "artifacts/json/g900_force_compression_return_cell_alignment_002.v1.json",
+    "artifacts/json/g900_force_compression_return_cell_home_contrast_003.v1.json",
+    "artifacts/json/g900_force_compression_return_cell_home_alignment_theorem_candidate_004.v1.json"
+  ],
+  "check_count": 24,
+  "failed_check_count": 0,
+  "failed_checks": [],
+  "checks": {
+    "001_audit_pass": true,
+    "001_compression_signature_true": true,
+    "001_boundary_no_shadow": true,
+    "001_boundary_no_physics": true,
+    "001_boundary_no_mutation": true,
+    "metric_mean_2_75_to_0": true,
+    "metric_radius_5_to_0": true,
+    "metric_size_preserved_3": true,
+    "metric_entropy_preserved_1_5": true,
+    "002_audit_pass": true,
+    "002_homeward_alignment_true": true,
+    "002_support_shrinkage_false": true,
+    "003_audit_pass": true,
+    "003_target_home_exact_after": true,
+    "003_target_minimal_tested": true,
+    "003_source_home_fails": true,
+    "003_six_nine_pair_fails": true,
+    "003_full_return_cell_exact_but_nondiscriminating": true,
+    "004_audit_pass": true,
+    "004_local_only_boundary": true,
+    "004_no_global_shadow": true,
+    "004_no_physics": true,
+    "004_no_renderer": true,
+    "004_no_mutation": true
+  },
+  "boundary": {
+    "local_theorem_verified_only": true,
+    "global_compression_shadow_admitted": false,
+    "physical_gravity_claim": false,
+    "force_renderer_admitted": false,
+    "body_mutation": false
+  }
+}
