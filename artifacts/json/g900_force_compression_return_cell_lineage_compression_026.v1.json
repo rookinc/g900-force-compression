@@ -1,0 +1,57 @@
+{
+  "schema": "g900.force.compression.return_cell.lineage_compression",
+  "version": "0.1",
+  "status": "return_cell_lineage_compression_recorded",
+  "audit_pass": true,
+  "lineage_stage_count": 3,
+  "all_stages_preserve_signature": true,
+  "all_stages_exact_after": true,
+  "shared_from_slot_set": true,
+  "shared_to_slot_set": true,
+  "records": [
+    {
+      "source_path": "artifacts/json/g900_return_cell_carrier_incidence_packet_scout_002.v1.json",
+      "row_count": 4,
+      "from_slot_set": "3 6 9",
+      "to_slot_set": "9 12 13",
+      "mean_before": 2.75,
+      "mean_after": 0.0,
+      "radius_before": 5,
+      "radius_after": 0,
+      "signature": true,
+      "exact_after": true
+    },
+    {
+      "source_path": "artifacts/json/g900_return_cell_conserved_packet_scout_001.v1.json",
+      "row_count": 4,
+      "from_slot_set": "3 6 9",
+      "to_slot_set": "9 12 13",
+      "mean_before": 2.75,
+      "mean_after": 0.0,
+      "radius_before": 5,
+      "radius_after": 0,
+      "signature": true,
+      "exact_after": true
+    },
+    {
+      "source_path": "artifacts/json/g900_return_cell_one_step_information_transport_support_audit_006.v1.json",
+      "row_count": 24,
+      "from_slot_set": "3 6 9",
+      "to_slot_set": "9 12 13",
+      "mean_before": 2.75,
+      "mean_after": 0.0,
+      "radius_before": 5,
+      "radius_after": 0,
+      "signature": true,
+      "exact_after": true
+    }
+  ],
+  "lineage_statement": "The return-cell packet lineage preserves the same homeward-alignment compression signature across scout, carrier-incidence, and admitted transport stages.",
+  "boundary": {
+    "lineage_compression_only": true,
+    "global_compression_shadow_admitted": false,
+    "physical_gravity_claim": false,
+    "force_renderer_admitted": false,
+    "body_mutation": false
+  }
+}

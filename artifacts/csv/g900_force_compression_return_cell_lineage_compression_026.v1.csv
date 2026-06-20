@@ -1,0 +1,4 @@
+source_path,row_count,from_slot_set,to_slot_set,mean_before,mean_after,radius_before,radius_after,signature,exact_after
+artifacts/json/g900_return_cell_carrier_incidence_packet_scout_002.v1.json,4,3 6 9,9 12 13,2.75,0.0,5,0,True,True
+artifacts/json/g900_return_cell_conserved_packet_scout_001.v1.json,4,3 6 9,9 12 13,2.75,0.0,5,0,True,True
+artifacts/json/g900_return_cell_one_step_information_transport_support_audit_006.v1.json,24,3 6 9,9 12 13,2.75,0.0,5,0,True,True
