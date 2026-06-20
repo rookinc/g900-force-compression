@@ -1,0 +1,16 @@
+{
+  "schema": "g900.force.compression.methods_seed",
+  "version": "0.1",
+  "status": "methods_skeleton_written",
+  "audit_pass": true,
+  "section": "sections/02_methods.tex",
+  "source_range": "artifacts 001-017",
+  "boundary": {
+    "manuscript_prose_only": true,
+    "new_theorem_claim": false,
+    "compression_shadow_admitted": false,
+    "physical_gravity_claim": false,
+    "force_renderer_admitted": false,
+    "body_mutation": false
+  }
+}
