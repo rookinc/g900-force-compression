@@ -1,0 +1,33 @@
+{
+  "schema": "g900.force.compression.return_cell.lineage_theorem_candidate",
+  "version": "0.1",
+  "status": "theorem_candidate_recorded",
+  "audit_pass": true,
+  "statement": "For the presently known return-cell packet lineage, all three packet stages preserve the same finite homeward-alignment compression signature.",
+  "lineage_stages": [
+    "g900_return_cell_conserved_packet_scout_001",
+    "g900_return_cell_carrier_incidence_packet_scout_002",
+    "g900_return_cell_one_step_information_transport_support_audit_006"
+  ],
+  "shared_signature": {
+    "from_slot_set": [3, 6, 9],
+    "to_slot_set": [9, 12, 13],
+    "mean_distance_to_home": {
+      "before": 2.75,
+      "after": 0.0
+    },
+    "support_radius": {
+      "before": 5,
+      "after": 0
+    },
+    "exact_after": true
+  },
+  "boundary": {
+    "local_lineage_theorem_candidate_only": true,
+    "global_compression_shadow_admitted": false,
+    "physical_gravity_claim": false,
+    "force_renderer_admitted": false,
+    "body_mutation": false,
+    "future_lineage_uniqueness_claim": false
+  }
+}
