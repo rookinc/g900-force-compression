@@ -1,0 +1,62 @@
+{
+  "schema": "g900.force.compression.return_cell.packet_deep_extract",
+  "version": "0.1",
+  "status": "return_cell_packet_deep_extract_recorded",
+  "audit_pass": true,
+  "source_count": 3,
+  "rowlike_record_count": 32,
+  "source_counts": {
+    "artifacts/json/g900_return_cell_conserved_packet_scout_001.v1.json": 4,
+    "artifacts/json/g900_return_cell_carrier_incidence_packet_scout_002.v1.json": 4,
+    "artifacts/json/g900_return_cell_one_step_information_transport_support_audit_006.v1.json": 24
+  },
+  "slot_signature_by_source": {
+    "artifacts/json/g900_return_cell_conserved_packet_scout_001.v1.json": {
+      "rowlike_count": 4,
+      "from_slot_set": [
+        "3",
+        "6",
+        "9"
+      ],
+      "to_slot_set": [
+        "12",
+        "13",
+        "9"
+      ]
+    },
+    "artifacts/json/g900_return_cell_carrier_incidence_packet_scout_002.v1.json": {
+      "rowlike_count": 4,
+      "from_slot_set": [
+        "3",
+        "6",
+        "9"
+      ],
+      "to_slot_set": [
+        "12",
+        "13",
+        "9"
+      ]
+    },
+    "artifacts/json/g900_return_cell_one_step_information_transport_support_audit_006.v1.json": {
+      "rowlike_count": 24,
+      "from_slot_set": [
+        "3",
+        "6",
+        "9"
+      ],
+      "to_slot_set": [
+        "12",
+        "13",
+        "9"
+      ]
+    }
+  },
+  "boundary": {
+    "deep_extract_only": true,
+    "compression_signature_claim": false,
+    "global_compression_shadow_admitted": false,
+    "physical_gravity_claim": false,
+    "force_renderer_admitted": false,
+    "body_mutation": false
+  }
+}
