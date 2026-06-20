@@ -1,0 +1,57 @@
+{
+  "schema": "g900.force.compression.return_cell.lineage_checkpoint",
+  "version": "0.1",
+  "status": "return_cell_lineage_compression_checkpoint_passed",
+  "audit_pass": true,
+  "checkpoint_statement": "A three-stage return-cell packet lineage preserves the same local replay-stable bounded homeward-alignment compression signature.",
+  "lineage_stages": [
+    "g900_return_cell_conserved_packet_scout_001",
+    "g900_return_cell_carrier_incidence_packet_scout_002",
+    "g900_return_cell_one_step_information_transport_support_audit_006"
+  ],
+  "shared_signature": {
+    "from_slot_set": [
+      3,
+      6,
+      9
+    ],
+    "to_slot_set": [
+      9,
+      12,
+      13
+    ],
+    "mean_distance_to_home": {
+      "before": 2.75,
+      "after": 0.0
+    },
+    "support_radius": {
+      "before": 5,
+      "after": 0
+    },
+    "exact_after": true
+  },
+  "upgrade_over_009": "009 verified the admitted transport; 027 verifies the same compression signature across the scout, carrier-incidence, and admitted transport lineage.",
+  "dependency_count": 4,
+  "check_count": 10,
+  "failed_check_count": 0,
+  "failed_checks": [],
+  "checks": {
+    "009_local_checkpoint_pass": true,
+    "024_deep_extract_pass": true,
+    "024_three_sources": true,
+    "025_reconciliation_pass": true,
+    "025_same_signature_all_three": true,
+    "026_lineage_pass": true,
+    "026_all_stages_signature": true,
+    "026_all_stages_exact": true,
+    "026_shared_from": true,
+    "026_shared_to": true
+  },
+  "boundary": {
+    "lineage_checkpoint_only": true,
+    "global_compression_shadow_admitted": false,
+    "physical_gravity_claim": false,
+    "force_renderer_admitted": false,
+    "body_mutation": false
+  }
+}
