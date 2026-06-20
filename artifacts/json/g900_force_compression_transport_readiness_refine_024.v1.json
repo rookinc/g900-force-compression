@@ -1,0 +1,34 @@
+{
+  "schema": "g900.force.compression.transport_readiness_refine",
+  "version": "0.1",
+  "status": "transport_readiness_refined",
+  "audit_pass": true,
+  "source_artifact": "artifacts/json/g900_force_compression_return_cell_packet_compare_023.v1.json",
+  "prior_readiness_artifact": "artifacts/json/g900_force_compression_transport_metric_readiness_022.v1.json",
+  "refinement": {
+    "field_scan_ready_count_prior": 3,
+    "extractable_packet_history_count": 1,
+    "metric_ready_transport_history_count": 1
+  },
+  "metric_ready_artifacts": [
+    "g900_return_cell_one_step_information_transport_support_audit_006"
+  ],
+  "excluded_after_packet_compare": [
+    {
+      "artifact": "g900_return_cell_conserved_packet_scout_001",
+      "reason": "no extractable packet rows found by packet comparison"
+    },
+    {
+      "artifact": "g900_return_cell_carrier_incidence_packet_scout_002",
+      "reason": "no extractable packet rows found by packet comparison"
+    }
+  ],
+  "boundary": {
+    "readiness_refinement_only": true,
+    "compression_signature_claim": false,
+    "global_compression_shadow_admitted": false,
+    "physical_gravity_claim": false,
+    "force_renderer_admitted": false,
+    "body_mutation": false
+  }
+}
