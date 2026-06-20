@@ -1,0 +1,126 @@
+{
+  "schema": "g900.force.compression.source.priority",
+  "version": "0.1",
+  "status": "source_priority_recorded",
+  "audit_pass": true,
+  "source_count": 50,
+  "high_priority_count": 1,
+  "medium_priority_count": 19,
+  "low_priority_count": 30,
+  "top_sources": [
+    {
+      "priority_score": 9,
+      "priority": "high",
+      "project": "19-thalean-gravity-finite-tests",
+      "path": "19-thalean-gravity-finite-tests/artifacts/json/010_holonomy_return_compression_audit.json",
+      "kind": "artifacts/json",
+      "matched_terms": "compression",
+      "status": "candidate_source"
+    },
+    {
+      "priority_score": 8,
+      "priority": "medium",
+      "project": "31-null-well-surface-inversion",
+      "path": "31-null-well-surface-inversion/artifacts/json/registry_surface_minimal_boundary_theorem_candidate_009.v1.json",
+      "kind": "artifacts/json",
+      "matched_terms": "surface;boundary",
+      "status": "candidate_source"
+    },
+    {
+      "priority_score": 7,
+      "priority": "medium",
+      "project": "31-null-well-surface-inversion",
+      "path": "31-null-well-surface-inversion/notes/g900_null_well_surface_inversion_probe_001.md",
+      "kind": "notes",
+      "matched_terms": "null_well;surface",
+      "status": "candidate_source"
+    },
+    {
+      "priority_score": 6,
+      "priority": "medium",
+      "project": "31-null-well-surface-inversion",
+      "path": "31-null-well-surface-inversion/artifacts/json/registry_surface_bounded_elimination_boundary_lemma_013.v1.json",
+      "kind": "artifacts/json",
+      "matched_terms": "surface;boundary",
+      "status": "candidate_source"
+    },
+    {
+      "priority_score": 6,
+      "priority": "medium",
+      "project": "31-null-well-surface-inversion",
+      "path": "31-null-well-surface-inversion/artifacts/json/registry_surface_bounded_inversion_theorem_candidate_016.v1.json",
+      "kind": "artifacts/json",
+      "matched_terms": "surface",
+      "status": "candidate_source"
+    },
+    {
+      "priority_score": 6,
+      "priority": "medium",
+      "project": "31-null-well-surface-inversion",
+      "path": "31-null-well-surface-inversion/artifacts/json/registry_surface_elimination_boundary_008.v1.json",
+      "kind": "artifacts/json",
+      "matched_terms": "surface;boundary",
+      "status": "candidate_source"
+    },
+    {
+      "priority_score": 6,
+      "priority": "medium",
+      "project": "31-null-well-surface-inversion",
+      "path": "31-null-well-surface-inversion/artifacts/json/registry_surface_inversion_realization_audit_015.v1.json",
+      "kind": "artifacts/json",
+      "matched_terms": "surface",
+      "status": "candidate_source"
+    },
+    {
+      "priority_score": 6,
+      "priority": "medium",
+      "project": "31-null-well-surface-inversion",
+      "path": "31-null-well-surface-inversion/artifacts/json/registry_surface_inversion_vocabulary_ledger_014.v1.json",
+      "kind": "artifacts/json",
+      "matched_terms": "surface",
+      "status": "candidate_source"
+    },
+    {
+      "priority_score": 6,
+      "priority": "medium",
+      "project": "31-null-well-surface-inversion",
+      "path": "31-null-well-surface-inversion/artifacts/json/registry_surface_minimal_boundary_leave_one_out_010.v1.json",
+      "kind": "artifacts/json",
+      "matched_terms": "surface;boundary",
+      "status": "candidate_source"
+    },
+    {
+      "priority_score": 6,
+      "priority": "medium",
+      "project": "31-null-well-surface-inversion",
+      "path": "31-null-well-surface-inversion/artifacts/json/registry_surface_prefix_dependency_audit_012.v1.json",
+      "kind": "artifacts/json",
+      "matched_terms": "surface",
+      "status": "candidate_source"
+    },
+    {
+      "priority_score": 6,
+      "priority": "medium",
+      "project": "31-null-well-surface-inversion",
+      "path": "31-null-well-surface-inversion/artifacts/json/registry_surface_primary_ledger_anchor_006.v1.json",
+      "kind": "artifacts/json",
+      "matched_terms": "surface",
+      "status": "candidate_source"
+    },
+    {
+      "priority_score": 6,
+      "priority": "medium",
+      "project": "31-null-well-surface-inversion",
+      "path": "31-null-well-surface-inversion/artifacts/json/registry_surface_role_specific_obligation_audit_011.v1.json",
+      "kind": "artifacts/json",
+      "matched_terms": "surface",
+      "status": "candidate_source"
+    }
+  ],
+  "boundary": {
+    "source_interpreted": false,
+    "compression_shadow_admitted": false,
+    "physical_gravity_claim": false,
+    "body_mutation": false
+  }
+}
