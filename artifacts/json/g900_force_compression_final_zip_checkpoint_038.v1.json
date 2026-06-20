@@ -1,0 +1,16 @@
+{
+  "schema": "g900.force.compression.final_zip_checkpoint",
+  "version": "0.1",
+  "status": "final_overleaf_zip_built",
+  "audit_pass": true,
+  "zip_path": "dist/zip/g900_force_compression_project32_overleaf_v2.zip",
+  "boundary_audit": "artifacts/json/g900_force_compression_paper_boundary_audit_036.v1.json",
+  "local_pdf_required": false,
+  "boundary": {
+    "distribution_checkpoint_only": true,
+    "global_compression_shadow_admitted": false,
+    "physical_gravity_claim": false,
+    "force_renderer_admitted": false,
+    "body_mutation": false
+  }
+}
