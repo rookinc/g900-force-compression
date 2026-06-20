@@ -1,0 +1,5 @@
+path,packet_index,packet_count,row_count,from_slots,to_slots,from_slot_set,to_slot_set,edge_ids
+artifacts/json/g900_return_cell_conserved_packet_scout_001.v1.json,,0,0,,,,,
+artifacts/json/g900_return_cell_carrier_incidence_packet_scout_002.v1.json,,0,0,,,,,
+artifacts/json/g900_return_cell_one_step_information_transport_support_audit_006.v1.json,0,2,4,3 9 6 6,9 12 12 13,3 6 9,9 12 13,
+artifacts/json/g900_return_cell_one_step_information_transport_support_audit_006.v1.json,1,2,4,3 9 6 6,9 12 12 13,3 6 9,9 12 13,tuple_edge_611 tuple_edge_2425 tuple_edge_1472 tuple_edge_1475

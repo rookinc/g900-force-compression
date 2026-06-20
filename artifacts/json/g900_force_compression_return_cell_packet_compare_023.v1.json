@@ -1,0 +1,28 @@
+{
+  "schema": "g900.force.compression.return_cell.packet_compare",
+  "version": "0.1",
+  "status": "return_cell_packet_compare_recorded",
+  "audit_pass": true,
+  "source_count": 3,
+  "packet_record_count": 4,
+  "signature_count": 2,
+  "signatures": {
+    "('', '')": [
+      "artifacts/json/g900_return_cell_conserved_packet_scout_001.v1.json",
+      "artifacts/json/g900_return_cell_carrier_incidence_packet_scout_002.v1.json"
+    ],
+    "('3 6 9', '9 12 13')": [
+      "artifacts/json/g900_return_cell_one_step_information_transport_support_audit_006.v1.json",
+      "artifacts/json/g900_return_cell_one_step_information_transport_support_audit_006.v1.json"
+    ]
+  },
+  "same_slot_signature_all": false,
+  "boundary": {
+    "packet_compare_only": true,
+    "compression_signature_claim": false,
+    "global_compression_shadow_admitted": false,
+    "physical_gravity_claim": false,
+    "force_renderer_admitted": false,
+    "body_mutation": false
+  }
+}
