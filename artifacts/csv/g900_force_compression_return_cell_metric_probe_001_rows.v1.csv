@@ -1,0 +1,9 @@
+row_index,state_id,segment_role,from_slot,to_slot,from_dist_to_home,to_dist_to_home,distance_delta,edge_id,selection_score
+0,return_cell_role_anchor_source_packet_003_P,03_09,3,9,5,0,-5,,
+1,return_cell_role_anchor_source_packet_003_P,09_12,9,12,0,0,0,,
+2,return_cell_role_anchor_source_packet_003_P,06_12,6,12,3,0,-3,,
+3,return_cell_role_anchor_source_packet_003_P,06_13,6,13,3,0,-3,,
+4,return_cell_body_edge_target_packet_003_Q,03_09,3,9,5,0,-5,tuple_edge_611,0|0|0|0|611
+5,return_cell_body_edge_target_packet_003_Q,09_12,9,12,0,0,0,tuple_edge_2425,1|0|30|30|2425
+6,return_cell_body_edge_target_packet_003_Q,06_12,6,12,3,0,-3,tuple_edge_1472,0|0|0|0|1472
+7,return_cell_body_edge_target_packet_003_Q,06_13,6,13,3,0,-3,tuple_edge_1475,0|0|0|0|1475

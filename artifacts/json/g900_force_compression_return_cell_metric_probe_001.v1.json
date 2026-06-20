@@ -1,0 +1,48 @@
+{
+  "schema": "g900.force.compression.return_cell.metric_probe",
+  "version": "0.1",
+  "status": "return_cell_metric_probe_recorded",
+  "audit_pass": true,
+  "compression_signature": true,
+  "row_count": 8,
+  "receipt_home_proxy": {
+    "kind": "target_slots_of_admitted_h1_packet",
+    "home_slots": [
+      9,
+      12,
+      13
+    ]
+  },
+  "metrics": {
+    "support_size_before": 3,
+    "support_size_after": 3,
+    "support_radius_before": 5,
+    "support_radius_after": 0,
+    "mean_distance_to_receipt_home_before": 2.75,
+    "mean_distance_to_receipt_home_after": 0.0,
+    "maximum_distance_to_receipt_home_before": 5,
+    "maximum_distance_to_receipt_home_after": 0,
+    "support_entropy_before": 1.5,
+    "support_entropy_after": 1.5,
+    "concentration_ratio_before": 0.6,
+    "concentration_ratio_after": null
+  },
+  "checks": {
+    "history_exists": true,
+    "source_json_exists": true,
+    "row_count_is_positive": true,
+    "receipt_pass_source": true,
+    "boundary_no_force_claim": true,
+    "boundary_no_physical_claim": true,
+    "boundary_no_body_mutation": true,
+    "mean_distance_nonincreasing": true,
+    "radius_nonincreasing": true
+  },
+  "boundary": {
+    "metric_probe_only": true,
+    "compression_shadow_admitted": false,
+    "force_renderer_admitted": false,
+    "physical_gravity_claim": false,
+    "body_mutation": false
+  }
+}
