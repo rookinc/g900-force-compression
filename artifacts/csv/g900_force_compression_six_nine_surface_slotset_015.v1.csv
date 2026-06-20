@@ -1,0 +1,5 @@
+slot_set,count,slot_count,has_pair_6_9,has_slot_12,has_gap_11,has_source_3,surface_class
+3 6 9 11 12,122,5,True,True,True,True,expanded_surface_with_gap
+3 6 9 12,78,4,True,True,False,True,expanded_surface_without_gap
+,50,0,False,False,False,False,empty_unparsed
+6 9,48,2,True,False,False,False,bare_six_nine_pair

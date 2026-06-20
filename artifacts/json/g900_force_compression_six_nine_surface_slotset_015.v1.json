@@ -1,0 +1,30 @@
+{
+  "schema": "g900.force.compression.six_nine.surface_slotset",
+  "version": "0.1",
+  "status": "six_nine_surface_slotset_classified",
+  "audit_pass": true,
+  "source_artifact": "artifacts/json/g900_force_compression_six_nine_bridge_inspect_014.v1.json",
+  "slotset_class_count": 4,
+  "class_counts": {
+    "expanded_surface_with_gap": 122,
+    "expanded_surface_without_gap": 78,
+    "empty_unparsed": 50,
+    "bare_six_nine_pair": 48
+  },
+  "dominant_class": "expanded_surface_with_gap",
+  "metric_ready": false,
+  "interpretation": {
+    "six_nine_surface_shape_present": true,
+    "directed_transport_history_present": false,
+    "surface_rowset_not_transport_history": true
+  },
+  "boundary": {
+    "surface_slotset_classification_only": true,
+    "slot_history_constructed": false,
+    "compression_signature_claim": false,
+    "compression_shadow_admitted": false,
+    "physical_gravity_claim": false,
+    "force_renderer_admitted": false,
+    "body_mutation": false
+  }
+}
