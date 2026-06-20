@@ -1,0 +1,56 @@
+{
+  "schema": "g900.force.compression.six_nine.bridge.inspect_014",
+  "version": "0.1",
+  "status": "six_nine_058_candidate_rows_inspected",
+  "audit_pass": true,
+  "source": "/data/data/com.termux/files/home/dev/cori/aletheos.ai/public_html/labs/g900_observatory/artifacts/csv/g900_six_nine_one_row_correction_probe_058_candidate_target_rows.v1.csv",
+  "row_count": 298,
+  "nonempty_parsed_slot_row_count": 248,
+  "distinct_slot_set_count": 4,
+  "top_slot_sets": [
+    {
+      "slot_set": "3 6 9 11 12",
+      "count": 122
+    },
+    {
+      "slot_set": "3 6 9 12",
+      "count": 78
+    },
+    {
+      "slot_set": "",
+      "count": 50
+    },
+    {
+      "slot_set": "6 9",
+      "count": 48
+    }
+  ],
+  "top_pairs": [
+    {
+      "pair": "06_09",
+      "count": 248
+    },
+    {
+      "pair": "",
+      "count": 50
+    }
+  ],
+  "root_slot_counts": {
+    "": 278,
+    "12": 18,
+    "3": 1,
+    "6": 1
+  },
+  "candidate_history_possible": true,
+  "metric_ready": false,
+  "reason_metric_not_ready": "slot sets are abundant, but directed source-to-target slot history is not yet isolated",
+  "boundary": {
+    "bridge_inspection_only": true,
+    "slot_history_constructed": false,
+    "compression_signature_claim": false,
+    "compression_shadow_admitted": false,
+    "physical_gravity_claim": false,
+    "force_renderer_admitted": false,
+    "body_mutation": false
+  }
+}
