@@ -1,0 +1,6 @@
+candidate_id,source_project,receipt_support_available,receipt_home_available,replay_available,perturbation_available,eligible_for_metric_test,status
+six_nine,31-null-well-surface-inversion,unknown,unknown,unknown,unknown,false,pending_source_audit
+null_well_surface,31-null-well-surface-inversion,unknown,unknown,unknown,unknown,false,pending_source_audit
+return_cell_receipts,29-g900-observatory-homecoming,unknown,unknown,unknown,unknown,false,pending_source_audit
+inward_boundary_receipts,30-null-well-apparatus,unknown,unknown,unknown,unknown,false,pending_source_audit
+receipt_home_candidates,29-g900-observatory-homecoming,unknown,unknown,unknown,unknown,false,pending_source_audit

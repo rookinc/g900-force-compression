@@ -1,0 +1,20 @@
+{
+  "schema": "g900.force.compression.surface.census",
+  "version": "0.1",
+  "status": "initialized",
+  "audit_pass": null,
+  "candidate_count": 5,
+  "eligible_for_metric_test_count": 0,
+  "candidates": [
+    "six_nine",
+    "null_well_surface",
+    "return_cell_receipts",
+    "inward_boundary_receipts",
+    "receipt_home_candidates"
+  ],
+  "boundary": {
+    "compression_shadow_admitted": false,
+    "physical_gravity_claim": false,
+    "body_mutation": false
+  }
+}
