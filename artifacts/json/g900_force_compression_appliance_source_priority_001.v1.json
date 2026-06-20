@@ -1,0 +1,179 @@
+{
+  "schema": "g900.force.compression.appliance.source.priority",
+  "version": "0.1",
+  "status": "appliance_source_priority_recorded",
+  "audit_pass": true,
+  "source_count": 444,
+  "high_priority_count": 28,
+  "medium_priority_count": 74,
+  "low_priority_count": 342,
+  "top_sources": [
+    {
+      "priority_score": 36,
+      "priority": "high",
+      "path": "receipts/g900_return_cell_one_step_information_transport_support_audit_006.v1.json",
+      "kind": "json",
+      "matched_terms": "receipt;information;transport;return_cell",
+      "status": "candidate_appliance_source"
+    },
+    {
+      "priority_score": 31,
+      "priority": "high",
+      "path": "artifacts/json/g900_return_cell_one_step_information_transport_support_audit_006.v1.json",
+      "kind": "json",
+      "matched_terms": "information;transport;return_cell",
+      "status": "candidate_appliance_source"
+    },
+    {
+      "priority_score": 30,
+      "priority": "high",
+      "path": "artifacts/csv/g900_return_cell_one_step_information_transport_support_audit_006_history.v1.csv",
+      "kind": "file",
+      "matched_terms": "information;transport;return_cell",
+      "status": "candidate_appliance_source"
+    },
+    {
+      "priority_score": 30,
+      "priority": "high",
+      "path": "artifacts/csv/g900_return_cell_one_step_information_transport_support_audit_006_obligations.v1.csv",
+      "kind": "file",
+      "matched_terms": "information;transport;return_cell",
+      "status": "candidate_appliance_source"
+    },
+    {
+      "priority_score": 30,
+      "priority": "high",
+      "path": "artifacts/json/g900_six_nine_return_home_receipt_ledger_068.v1.json",
+      "kind": "json",
+      "matched_terms": "receipt",
+      "status": "candidate_appliance_source"
+    },
+    {
+      "priority_score": 29,
+      "priority": "high",
+      "path": "artifacts/csv/g900_six_nine_return_home_receipt_ledger_068_route_holds.v1.csv",
+      "kind": "file",
+      "matched_terms": "receipt",
+      "status": "candidate_appliance_source"
+    },
+    {
+      "priority_score": 28,
+      "priority": "high",
+      "path": "notes/g900_return_cell_one_step_information_transport_support_audit_006.md",
+      "kind": "note",
+      "matched_terms": "information;transport;return_cell",
+      "status": "candidate_appliance_source"
+    },
+    {
+      "priority_score": 28,
+      "priority": "high",
+      "path": "receipts/g900_return_cell_bounded_information_transport_admission_007.v1.json",
+      "kind": "json",
+      "matched_terms": "receipt;information;transport;return_cell",
+      "status": "candidate_appliance_source"
+    },
+    {
+      "priority_score": 27,
+      "priority": "high",
+      "path": "notes/g900_six_nine_return_home_receipt_ledger_068.md",
+      "kind": "note",
+      "matched_terms": "receipt",
+      "status": "candidate_appliance_source"
+    },
+    {
+      "priority_score": 23,
+      "priority": "high",
+      "path": "artifacts/json/g900_return_cell_bounded_information_transport_admission_007.v1.json",
+      "kind": "json",
+      "matched_terms": "information;transport;return_cell",
+      "status": "candidate_appliance_source"
+    },
+    {
+      "priority_score": 23,
+      "priority": "high",
+      "path": "receipts/g900_return_cell_information_flux_witness_010.v1.json",
+      "kind": "json",
+      "matched_terms": "receipt;information;return_cell",
+      "status": "candidate_appliance_source"
+    },
+    {
+      "priority_score": 22,
+      "priority": "high",
+      "path": "artifacts/csv/g900_return_cell_bounded_information_transport_admission_007_history.v1.csv",
+      "kind": "file",
+      "matched_terms": "information;transport;return_cell",
+      "status": "candidate_appliance_source"
+    },
+    {
+      "priority_score": 22,
+      "priority": "high",
+      "path": "artifacts/csv/g900_return_cell_bounded_information_transport_admission_007_obligations.v1.csv",
+      "kind": "file",
+      "matched_terms": "information;transport;return_cell",
+      "status": "candidate_appliance_source"
+    },
+    {
+      "priority_score": 22,
+      "priority": "high",
+      "path": "receipts/g900_return_cell_permission_channel_admission_005.v1.json",
+      "kind": "json",
+      "matched_terms": "receipt;permission;channel;return_cell",
+      "status": "candidate_appliance_source"
+    },
+    {
+      "priority_score": 20,
+      "priority": "high",
+      "path": "notes/g900_return_cell_bounded_information_transport_admission_007.md",
+      "kind": "note",
+      "matched_terms": "information;transport;return_cell",
+      "status": "candidate_appliance_source"
+    },
+    {
+      "priority_score": 18,
+      "priority": "high",
+      "path": "artifacts/json/g900_return_cell_information_flux_witness_010.v1.json",
+      "kind": "json",
+      "matched_terms": "information;return_cell",
+      "status": "candidate_appliance_source"
+    },
+    {
+      "priority_score": 18,
+      "priority": "high",
+      "path": "receipts/g900_return_cell_carrier_incidence_packet_scout_002.v1.json",
+      "kind": "json",
+      "matched_terms": "receipt;return_cell",
+      "status": "candidate_appliance_source"
+    },
+    {
+      "priority_score": 18,
+      "priority": "high",
+      "path": "receipts/g900_return_cell_packet_successor_rule_scout_003.v1.json",
+      "kind": "json",
+      "matched_terms": "receipt;return_cell",
+      "status": "candidate_appliance_source"
+    },
+    {
+      "priority_score": 17,
+      "priority": "high",
+      "path": "artifacts/csv/g900_return_cell_information_flux_witness_010_components.v1.csv",
+      "kind": "file",
+      "matched_terms": "information;return_cell",
+      "status": "candidate_appliance_source"
+    },
+    {
+      "priority_score": 17,
+      "priority": "high",
+      "path": "artifacts/json/g900_return_cell_permission_channel_admission_005.v1.json",
+      "kind": "json",
+      "matched_terms": "permission;channel;return_cell",
+      "status": "candidate_appliance_source"
+    }
+  ],
+  "boundary": {
+    "source_interpreted": false,
+    "compression_shadow_admitted": false,
+    "force_renderer_admitted": false,
+    "physical_gravity_claim": false,
+    "body_mutation": false
+  }
+}
