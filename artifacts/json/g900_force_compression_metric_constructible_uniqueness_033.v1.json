@@ -1,0 +1,46 @@
+{
+  "schema": "g900.force.compression.metric_constructible_uniqueness",
+  "version": "0.1",
+  "status": "metric_constructible_uniqueness_recorded",
+  "audit_pass": true,
+  "candidate_transport_count": 80,
+  "metric_constructible_count": 3,
+  "constructible_paths": [
+    "artifacts/json/g900_return_cell_one_step_information_transport_support_audit_006.v1.json",
+    "artifacts/json/g900_return_cell_carrier_incidence_packet_scout_002.v1.json",
+    "artifacts/json/g900_return_cell_conserved_packet_scout_001.v1.json"
+  ],
+  "uniqueness_statement": "In the tested transport-labeled candidate family, only the return-cell packet lineage is metric-constructible for homeward-alignment compression testing.",
+  "shared_signature": {
+    "from_slot_set": [
+      3,
+      6,
+      9
+    ],
+    "to_slot_set": [
+      9,
+      12,
+      13
+    ]
+  },
+  "check_count": 6,
+  "failed_check_count": 0,
+  "failed_checks": [],
+  "checks": {
+    "source_rows_present": true,
+    "constructible_count_3": true,
+    "all_constructible_return_cell": true,
+    "all_constructible_same_signature": true,
+    "shared_from_slot_set_3_6_9": true,
+    "shared_to_slot_set_12_13_9": true
+  },
+  "boundary": {
+    "tested_family_uniqueness_only": true,
+    "global_uniqueness_claim": false,
+    "compression_signature_claim_beyond_return_cell": false,
+    "global_compression_shadow_admitted": false,
+    "physical_gravity_claim": false,
+    "force_renderer_admitted": false,
+    "body_mutation": false
+  }
+}
