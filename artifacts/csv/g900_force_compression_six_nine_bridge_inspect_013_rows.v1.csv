@@ -1,0 +1,21 @@
+i,membership,pair_key,source_pair,source_root_slot,source_limit_transition,source_side_gap_signature,broken_ladder,inside_moving_endpoint,outside_moving_endpoint,anchor,root,parsed_slot_set,parsed_slot_count
+0,union_not_target,,,,,,,,,,,,0
+1,union_not_target,,,,,,,,,,,,0
+2,target_not_union,,,,,,,,,,,,0
+3,union_not_target,,,,,,,,,,,6 9,2
+4,target_not_union,,,,,,,,,,,,0
+5,union_not_target,,,,,,,,,,,,0
+6,target_not_union,,,,,,,,,,,,0
+7,target_not_union,,,,,,,,,,,,0
+8,union_not_target,,,,,,,,,,,,0
+9,target_not_union,,,,,,,,,,,,0
+10,union_not_target,,,,,,,,,,,,0
+11,union_not_target,,,,,,,,,,,6 9,2
+12,union_not_target,,,,,,,,,,,,0
+13,target_not_union,,,,,,,,,,,,0
+14,target_not_union,,,,,,,,,,,,0
+15,target_not_union,,,,,,,,,,,,0
+16,union_not_target,,,,,,,,,,,,0
+17,union_not_target,,,,,,,,,,,,0
+18,target_not_union,,,,,,,,,,,,0
+19,target_not_union,,,,,,,,,,,,0

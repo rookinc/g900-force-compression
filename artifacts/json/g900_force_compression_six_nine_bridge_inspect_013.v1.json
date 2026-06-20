@@ -1,0 +1,29 @@
+{
+  "schema": "g900.force.compression.six_nine.bridge.inspect",
+  "version": "0.1",
+  "status": "six_nine_bridge_source_inspected",
+  "audit_pass": true,
+  "source": "/data/data/com.termux/files/home/dev/cori/aletheos.ai/public_html/labs/g900_observatory/artifacts/csv/g900_six_nine_corrected_target_union_compare_059_nearest_diff_rows.v1.csv",
+  "row_count": 20,
+  "membership_counts": {
+    "union_not_target": 10,
+    "target_not_union": 10
+  },
+  "distinct_parsed_slot_set_count": 2,
+  "slot_sets": {
+    "": 18,
+    "6 9": 2
+  },
+  "candidate_history_possible": true,
+  "metric_ready": false,
+  "reason_metric_not_ready": "parsed slot sets exist, but this artifact does not yet identify directed source-to-target slot history",
+  "boundary": {
+    "bridge_inspection_only": true,
+    "slot_history_constructed": false,
+    "compression_signature_claim": false,
+    "compression_shadow_admitted": false,
+    "physical_gravity_claim": false,
+    "force_renderer_admitted": false,
+    "body_mutation": false
+  }
+}
