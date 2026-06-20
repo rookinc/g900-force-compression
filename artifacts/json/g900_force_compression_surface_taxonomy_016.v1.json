@@ -1,0 +1,32 @@
+{
+  "schema": "g900.force.compression.surface_taxonomy",
+  "version": "0.1",
+  "status": "compression_surface_taxonomy_recorded",
+  "audit_pass": true,
+  "surface_count": 2,
+  "taxonomy": [
+    {
+      "surface_id": "return_cell_transport",
+      "kind": "directed_transport",
+      "current_status": "local_replay_stable_checkpoint",
+      "metric_ready": true,
+      "compression_role": "homeward_alignment_compression",
+      "next_required_step": "expand_or_compare_against_other_transports"
+    },
+    {
+      "surface_id": "six_nine_return_home",
+      "kind": "surface_rowset",
+      "current_status": "receipt_strong_surface_anatomy",
+      "metric_ready": false,
+      "compression_role": "surface_compression_candidate",
+      "next_required_step": "derive_directed_slot_history_or_define_surface_metric"
+    }
+  ],
+  "boundary": {
+    "taxonomy_only": true,
+    "global_compression_shadow_admitted": false,
+    "physical_gravity_claim": false,
+    "force_renderer_admitted": false,
+    "body_mutation": false
+  }
+}
