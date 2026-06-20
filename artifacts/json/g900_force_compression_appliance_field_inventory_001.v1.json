@@ -1,0 +1,153 @@
+{
+  "schema": "g900.force.compression.appliance.field.inventory",
+  "version": "0.1",
+  "status": "appliance_field_inventory_recorded",
+  "audit_pass": true,
+  "inspected_source_count": 12,
+  "json_read_count": 6,
+  "csv_read_count": 4,
+  "missing_count": 0,
+  "error_count": 0,
+  "sources": [
+    {
+      "path": "receipts/g900_return_cell_one_step_information_transport_support_audit_006.v1.json",
+      "exists": true,
+      "kind": "json",
+      "priority_score": "36",
+      "read_status": "json_read",
+      "top_level_keys": "artifact;boundary;commit;failed_obligation_ids;history_csv;history_id;note;obligations_csv;receipt_id;receipt_pass;recorded_at_utc;schema;verdict;version",
+      "interesting_keys": "boundary;boundary.adds_edges;boundary.adds_vertices;boundary.force_claim;boundary.information_transport_admitted;boundary.marker_lighting;boundary.mutates_body;boundary.one_step_history_supported;boundary.permission_channel_admitted;boundary.physical_transport_claim;boundary.physics_claim;boundary.unification_claim;boundary.viewer_gate_open;boundary.viewer_registry_wired;failed_obligation_ids;failed_obligation_ids[];history_csv;history_id;obligations_csv;receipt_id;receipt_pass;verdict",
+      "row_count": "",
+      "field_count": 28
+    },
+    {
+      "path": "artifacts/json/g900_return_cell_one_step_information_transport_support_audit_006.v1.json",
+      "exists": true,
+      "kind": "json",
+      "priority_score": "31",
+      "read_status": "json_read",
+      "top_level_keys": "artifact_id;audit_pass;boundary;commit;failed_obligation_ids;git_status_short_before;history_candidate;inputs;keeper;obligations;question;recorded_at_utc;schema;status;support_statement;verdict;version",
+      "interesting_keys": "audit_pass;boundary;boundary.adds_edges;boundary.adds_vertices;boundary.force_claim;boundary.information_transport_admitted;boundary.marker_lighting;boundary.mutates_body;boundary.one_step_history_supported;boundary.permission_channel_admitted;boundary.physical_transport_claim;boundary.physics_claim;boundary.unification_claim;boundary.viewer_gate_open;boundary.viewer_registry_wired;failed_obligation_ids;failed_obligation_ids[];git_status_short_before;history_candidate;history_candidate.conservation;history_candidate.conservation.anchor_count_preserved;history_candidate.conservation.conserved_observable;history_candidate.conservation.p_signature;history_candidate.conservation.p_signature[];history_candidate.conservation.p_signature[].anchor_limit;history_candidate.conservation.p_signature[].from_slot;history_candidate.conservation.p_signature[].segment_role;history_candidate.conservation.p_signature[].to_slot;history_candidate.conservation.q_signature;history_candidate.conservation.q_signature[];history_candidate.conservation.q_signature[].anchor_limit;history_candidate.conservation.q_signature[].from_slot;history_candidate.conservation.q_signature[].segment_role;history_candidate.conservation.q_signature[].to_slot;history_candidate.conservation.receipted_transformation;history_candidate.conservation.role_sequence_preserved;history_candidate.conservation.signature_preserved_exactly;history_candidate.domain;history_candidate.domain[];history_candidate.h0;history_candidate.h0.index;history_candidate.h0.packet;history_candidate.h0.packet[];history_candidate.h0.packet[].anchor_limit;history_candidate.h0.packet[].from_slot;history_candidate.h0.packet[].p_index;history_candidate.h0.packet[].segment_role;history_candidate.h0.packet[].source_kind;history_candidate.h0.packet[].to_slot;history_candidate.h0.role_anchor_signature;history_candidate.h0.role_anchor_signature[];history_candidate.h0.role_anchor_signature[].anchor_limit;history_candidate.h0.role_anchor_signature[].from_slot;history_candidate.h0.role_anchor_signature[].segment_role;history_candidate.h0.role_anchor_signature[].to_slot;history_candidate.h0.state_id;history_candidate.h0.state_kind;history_candidate.h1;history_candidate.h1.index;history_candidate.h1.packet;history_candidate.h1.packet[];history_candidate.h1.packet[].anchor_limit;history_candidate.h1.packet[].edge_id;history_candidate.h1.packet[].edge_index;history_candidate.h1.packet[].from_limit;history_candidate.h1.packet[].from_slot;history_candidate.h1.packet[].from_vertex;history_candidate.h1.packet[].q_index;history_candidate.h1.packet[].same_anchor_limit;history_candidate.h1.packet[].segment_role;history_candidate.h1.packet[].selection_score;history_candidate.h1.packet[].source_endpoint_anchored;history_candidate.h1.packet[].source_limit_distance;history_candidate.h1.packet[].target_endpoint_anchored;history_candidate.h1.packet[].target_limit_distance;history_candidate.h1.packet[].to_limit;history_candidate.h1.packet[].to_slot;history_candidate.h1.packet[].to_vertex;history_candidate.h1.packet[].total_limit_distance;history_candidate.h1.role_anchor_signature",
+      "row_count": "",
+      "field_count": 124
+    },
+    {
+      "path": "artifacts/csv/g900_return_cell_one_step_information_transport_support_audit_006_history.v1.csv",
+      "exists": true,
+      "kind": "file",
+      "priority_score": "30",
+      "read_status": "csv_read",
+      "top_level_keys": "history_index;state_id;state_kind;segment_role;from_slot;to_slot;anchor_limit;edge_id;from_vertex;to_vertex;selection_score",
+      "interesting_keys": "",
+      "row_count": 8,
+      "field_count": 11
+    },
+    {
+      "path": "artifacts/csv/g900_return_cell_one_step_information_transport_support_audit_006_obligations.v1.csv",
+      "exists": true,
+      "kind": "file",
+      "priority_score": "30",
+      "read_status": "csv_read",
+      "top_level_keys": "id;name;requirement;evidence;pass",
+      "interesting_keys": "",
+      "row_count": 18,
+      "field_count": 5
+    },
+    {
+      "path": "artifacts/json/g900_six_nine_return_home_receipt_ledger_068.v1.json",
+      "exists": true,
+      "kind": "json",
+      "priority_score": "30",
+      "read_status": "json_read",
+      "top_level_keys": "arrival_status;artifacts_exist;audit_id;audit_pass;boundaries_intact;boundary;closed_claim;current_head_full;current_head_short;failed_boundary_check_count;failed_boundary_checks;failed_hold_check_count;failed_hold_checks;holds_verified;missing_artifacts;next_ascent_target;no_new_summit_claim;open_boundary;reader_choice_statement;route_holds;summit_commit_full;summit_commit_short;summit_supported;theory_claim;verdict",
+      "interesting_keys": "arrival_status;audit_pass;boundary;boundary.channel_admitted;boundary.closure_witness_admitted;boundary.does_not_move_summit_flag;boundary.force_claim;boundary.marker_lighting;boundary.native_derivation_complete;boundary.physics_claim;boundary.receipt_ledger_only;boundary.row_level_union_complete;boundary.transport_relation_admitted;boundary.unification_claim;boundary.viewer_or_body_mutation;closed_claim;failed_boundary_check_count;failed_boundary_checks;failed_boundary_checks[];no_new_summit_claim;open_boundary;open_boundary.channel_admitted;open_boundary.closure_witness_admitted;open_boundary.force_claim;open_boundary.marker_lighting;open_boundary.native_derivation_complete;open_boundary.physics_claim;open_boundary.row_level_union_complete;open_boundary.transport_relation_admitted;open_boundary.unification_claim;open_boundary.viewer_or_body_mutation;route_holds;route_holds[];route_holds[].hold;route_holds[].load_bearing_value;route_holds[].role;route_holds[].status;summit_supported;theory_claim;verdict",
+      "row_count": "",
+      "field_count": 55
+    },
+    {
+      "path": "artifacts/csv/g900_six_nine_return_home_receipt_ledger_068_route_holds.v1.csv",
+      "exists": true,
+      "kind": "file",
+      "priority_score": "29",
+      "read_status": "csv_read",
+      "top_level_keys": "hold;role;status;load_bearing_value",
+      "interesting_keys": "",
+      "row_count": 10,
+      "field_count": 4
+    },
+    {
+      "path": "notes/g900_return_cell_one_step_information_transport_support_audit_006.md",
+      "exists": true,
+      "kind": "note",
+      "priority_score": "28",
+      "read_status": "text_read",
+      "top_level_keys": "",
+      "interesting_keys": "",
+      "row_count": 75,
+      "field_count": ""
+    },
+    {
+      "path": "receipts/g900_return_cell_bounded_information_transport_admission_007.v1.json",
+      "exists": true,
+      "kind": "json",
+      "priority_score": "28",
+      "read_status": "json_read",
+      "top_level_keys": "admitted_transport_id;artifact;boundary;commit;failed_obligation_ids;history_csv;note;obligations_csv;receipt_id;receipt_pass;recorded_at_utc;registry;schema;verdict;version",
+      "interesting_keys": "admitted_transport_id;boundary;boundary.adds_edges;boundary.adds_vertices;boundary.admitted_information_transport_count;boundary.bounded_one_step_only;boundary.energy_flow_claim;boundary.force_claim;boundary.information_transport_admitted;boundary.marker_lighting;boundary.mutates_body;boundary.physical_transport_claim;boundary.physics_claim;boundary.unification_claim;boundary.viewer_gate_open;boundary.viewer_registry_wired;failed_obligation_ids;failed_obligation_ids[];history_csv;obligations_csv;receipt_id;receipt_pass;verdict",
+      "row_count": "",
+      "field_count": 30
+    },
+    {
+      "path": "notes/g900_six_nine_return_home_receipt_ledger_068.md",
+      "exists": true,
+      "kind": "note",
+      "priority_score": "27",
+      "read_status": "text_read",
+      "top_level_keys": "",
+      "interesting_keys": "",
+      "row_count": 42,
+      "field_count": ""
+    },
+    {
+      "path": "artifacts/json/g900_return_cell_bounded_information_transport_admission_007.v1.json",
+      "exists": true,
+      "kind": "json",
+      "priority_score": "23",
+      "read_status": "json_read",
+      "top_level_keys": "admission_pass;admitted_transport;answer;artifact_id;boundary;commit;evidence_stack;failed_obligation_ids;git_status_short_before;inputs;keeper;obligations;question;recorded_at_utc;registry;schema;status;verdict;version",
+      "interesting_keys": "admitted_transport;admitted_transport.anchor_count_preserved;admitted_transport.body_statement;admitted_transport.boundary;admitted_transport.boundary.adds_edges;admitted_transport.boundary.adds_vertices;admitted_transport.boundary.bounded_one_step_only;admitted_transport.boundary.energy_flow_claim;admitted_transport.boundary.force_claim;admitted_transport.boundary.information_transport_admitted;admitted_transport.boundary.marker_lighting;admitted_transport.boundary.mutates_body;admitted_transport.boundary.physical_transport_claim;admitted_transport.boundary.physics_claim;admitted_transport.boundary.unification_claim;admitted_transport.boundary.viewer_gate_open;admitted_transport.boundary.viewer_registry_wired;admitted_transport.boundary_statement;admitted_transport.claim_ladder_level;admitted_transport.conserved_observable;admitted_transport.h0;admitted_transport.h1;admitted_transport.history_domain;admitted_transport.history_domain[];admitted_transport.history_id;admitted_transport.id;admitted_transport.kind;admitted_transport.label;admitted_transport.permission_channel_id;admitted_transport.role_sequence_preserved;admitted_transport.signature_preserved_exactly;admitted_transport.status;admitted_transport.successor_rule_R;admitted_transport.transport_statement;boundary;boundary.adds_edges;boundary.adds_vertices;boundary.admitted_information_transport_count;boundary.bounded_one_step_only;boundary.energy_flow_claim;boundary.force_claim;boundary.information_transport_admitted;boundary.marker_lighting;boundary.mutates_body;boundary.physical_transport_claim;boundary.physics_claim;boundary.unification_claim;boundary.viewer_gate_open;boundary.viewer_registry_wired;failed_obligation_ids;failed_obligation_ids[];git_status_short_before;inputs.labs/g900_observatory/artifacts/json/g900_return_cell_one_step_information_transport_support_audit_006.v1.json;inputs.labs/g900_observatory/artifacts/json/g900_return_cell_permission_channel_admission_005.v1.json;inputs.labs/g900_observatory/data/g900_admitted_permission_channels.v0.1.json;inputs.labs/g900_observatory/data/g900_discrete_information_transport_contract.v0.1.json;inputs.labs/g900_observatory/data/g900_static_body.v1.json;obligations;obligations[];obligations[].evidence;obligations[].id;obligations[].name;obligations[].pass;obligations[].requirement;status;verdict",
+      "row_count": "",
+      "field_count": 80
+    },
+    {
+      "path": "receipts/g900_return_cell_information_flux_witness_010.v1.json",
+      "exists": true,
+      "kind": "json",
+      "priority_score": "23",
+      "read_status": "json_read",
+      "top_level_keys": "artifact;boundary;checks;commit;components_csv;failed_checks;flux_witness_id;note;receipt_id;receipt_pass;recorded_at_utc;schema;verdict;version",
+      "interesting_keys": "boundary;boundary.adds_edges;boundary.adds_vertices;boundary.energy_flow_claim;boundary.finite_information_flux_witness;boundary.force_claim;boundary.marker_lighting;boundary.motion_claim;boundary.mutates_body;boundary.physical_flux_claim;boundary.physical_transport_claim;boundary.physics_claim;boundary.transport_renderer_wired;boundary.unification_claim;boundary.viewer_gate_open;checks.body_edge_count_3600;checks.body_vertex_count_900;checks.history_expected;checks.permission_005_passed;checks.permission_channel_expected;checks.q_edge_count_4;checks.registry_transport_count_1;checks.support_006_passed;checks.transport_007_admitted;checks.transport_boundary_no_added_edges;checks.transport_boundary_no_added_vertices;checks.transport_boundary_no_body_mutation;checks.transport_boundary_no_energy;checks.transport_boundary_no_force;checks.transport_boundary_no_physical;checks.transport_boundary_no_physics;checks.transport_boundary_no_unification;checks.transport_id_expected;checks.witness_physical_flux_false;receipt_id;receipt_pass;verdict",
+      "row_count": "",
+      "field_count": 58
+    },
+    {
+      "path": "artifacts/csv/g900_return_cell_bounded_information_transport_admission_007_history.v1.csv",
+      "exists": true,
+      "kind": "file",
+      "priority_score": "22",
+      "read_status": "csv_read",
+      "top_level_keys": "history_index;state_id;state_kind;segment_role;from_slot;to_slot;anchor_limit;edge_id;from_vertex;to_vertex;selection_score",
+      "interesting_keys": "",
+      "row_count": 8,
+      "field_count": 11
+    }
+  ],
+  "boundary": {
+    "field_inventory_only": true,
+    "source_interpreted": false,
+    "compression_shadow_admitted": false,
+    "force_renderer_admitted": false,
+    "physical_gravity_claim": false,
+    "body_mutation": false
+  }
+}
