@@ -1,0 +1,30 @@
+{
+  "schema": "g900.force.compression.paper_boundary_audit",
+  "version": "0.1",
+  "status": "paper_boundary_audit_passed",
+  "audit_pass": true,
+  "closed_statement": "The paper establishes a local lineage-stable finite homeward-alignment compression theorem and a tested-family uniqueness result for metric-constructible transport histories.",
+  "open_boundary": {
+    "global_compression_shadow": false,
+    "physical_gravity": false,
+    "apparatus_wide_compression": false,
+    "global_uniqueness": false,
+    "force_renderer": false,
+    "body_mutation": false
+  },
+  "check_count": 10,
+  "failed_check_count": 0,
+  "failed_checks": [],
+  "checks": {
+    "theorem_section_included": true,
+    "uniqueness_section_included": true,
+    "local_theorem_present": true,
+    "lineage_statement_present": true,
+    "tested_family_uniqueness_present": true,
+    "no_global_uniqueness_claim": true,
+    "no_global_compression_shadow_claim": true,
+    "no_physical_gravity_claim": true,
+    "no_force_renderer_claim": true,
+    "no_body_mutation_claim": true
+  }
+}
