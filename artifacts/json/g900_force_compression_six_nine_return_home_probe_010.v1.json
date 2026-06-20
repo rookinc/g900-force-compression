@@ -1,0 +1,88 @@
+{
+  "schema": "g900.force.compression.six_nine.return_home_probe",
+  "version": "0.1",
+  "status": "six_nine_return_home_probe_recorded",
+  "audit_pass": true,
+  "source_json": "/data/data/com.termux/files/home/dev/cori/aletheos.ai/public_html/labs/g900_observatory/artifacts/json/g900_six_nine_return_home_receipt_ledger_068.v1.json",
+  "source_csv": "/data/data/com.termux/files/home/dev/cori/aletheos.ai/public_html/labs/g900_observatory/artifacts/csv/g900_six_nine_return_home_receipt_ledger_068_route_holds.v1.csv",
+  "source_verdict": "return_home_receipt_ledger_passed",
+  "arrival_status": "home_arrived_with_receipts",
+  "closed_claim": "The six-nine pair identity reaches a quotient summit: there is no target-side missing pair identity, and the only remaining pair-set mismatch is a union-side null component marked as a well/socket candidate.",
+  "open_boundary": {
+    "channel_admitted": false,
+    "closure_witness_admitted": false,
+    "force_claim": false,
+    "marker_lighting": false,
+    "native_derivation_complete": false,
+    "physics_claim": false,
+    "row_level_union_complete": false,
+    "transport_relation_admitted": false,
+    "unification_claim": false,
+    "viewer_or_body_mutation": false
+  },
+  "route_hold_count": 10,
+  "role_counts": {
+    "corrected target": 1,
+    "strict row comparison": 1,
+    "normalized comparison": 1,
+    "surface anatomy": 1,
+    "surface quotient": 1,
+    "promoted row check": 1,
+    "orphan identity recovery": 1,
+    "orphan branch test": 1,
+    "summit anatomy": 1,
+    "summit flag": 1
+  },
+  "status_counts": {
+    "corrected 298 target candidate exists": 1,
+    "strict row-key identity does not close": 1,
+    "content normalization reduces mismatch": 1,
+    "remaining mismatch is surface identity candidate": 1,
+    "quotient identity reduces miss to one signature": 1,
+    "promoted 058 row is not the obstruction": 1,
+    "orphan rows only have artifact-level six-nine hints": 1,
+    "admit/exclude branches do not close pair identity": 1,
+    "no target-side pair is missing; only union-side null remains": 1,
+    "null-well summit flag planted": 1
+  },
+  "load_bearing_values": [
+    "corrected_target_count=298; corrected_surplus_count=34",
+    "exact_target_match_count=0",
+    "best_mode=pair_key; best_signature_symdiff_count=4",
+    "diff_is_surface_mismatch_candidate=true; diff_row_count=8",
+    "best_mode=pair_identity; best_signature_symdiff_count=1",
+    "promoted_058_row_in_diff=false",
+    "direct_recovered_count=0; filename_hint_count=2",
+    "neither branch closes; closure counts=0",
+    "best_target_only_pair_ids=[]; best_union_only_pair_ids=[null]",
+    "six_nine_pair_identity_closed=true; null_well_candidate=true"
+  ],
+  "checks": {
+    "json_exists": true,
+    "csv_exists": true,
+    "audit_pass": true,
+    "holds_verified": true,
+    "summit_supported": true,
+    "boundaries_intact": true,
+    "force_claim_false": true,
+    "physics_claim_false": true,
+    "viewer_or_body_mutation_false": true,
+    "route_holds_present": true,
+    "csv_rows_present": true
+  },
+  "compression_relevance": {
+    "return_home_receipt_present": true,
+    "summit_supported": true,
+    "candidate_surface": "six_nine_return_home",
+    "metric_ready": false,
+    "reason_metric_not_ready": "route-hold ledger has roles and load-bearing values but no explicit source-to-target slot history in this probe"
+  },
+  "boundary": {
+    "source_probe_only": true,
+    "compression_signature_claim": false,
+    "compression_shadow_admitted": false,
+    "physical_gravity_claim": false,
+    "force_renderer_admitted": false,
+    "body_mutation": false
+  }
+}

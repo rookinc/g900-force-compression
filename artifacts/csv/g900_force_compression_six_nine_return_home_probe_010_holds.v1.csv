@@ -1,0 +1,11 @@
+hold,role,status,load_bearing_value
+058,corrected target,corrected 298 target candidate exists,corrected_target_count=298; corrected_surplus_count=34
+059,strict row comparison,strict row-key identity does not close,exact_target_match_count=0
+060,normalized comparison,content normalization reduces mismatch,best_mode=pair_key; best_signature_symdiff_count=4
+061,surface anatomy,remaining mismatch is surface identity candidate,diff_is_surface_mismatch_candidate=true; diff_row_count=8
+062,surface quotient,quotient identity reduces miss to one signature,best_mode=pair_identity; best_signature_symdiff_count=1
+063,promoted row check,promoted 058 row is not the obstruction,promoted_058_row_in_diff=false
+064,orphan identity recovery,orphan rows only have artifact-level six-nine hints,direct_recovered_count=0; filename_hint_count=2
+065,orphan branch test,admit/exclude branches do not close pair identity,neither branch closes; closure counts=0
+066,summit anatomy,no target-side pair is missing; only union-side null remains,best_target_only_pair_ids=[]; best_union_only_pair_ids=[null]
+067,summit flag,null-well summit flag planted,six_nine_pair_identity_closed=true; null_well_candidate=true
