@@ -1,0 +1,55 @@
+{
+  "schema": "g900.force.compression.return_cell.checkpoint",
+  "version": "0.1",
+  "status": "return_cell_local_compression_checkpoint_passed",
+  "audit_pass": true,
+  "checkpoint_statement": "A local replay-stable bounded homeward-alignment compression signature is verified for the admitted return-cell one-step information transport.",
+  "dependency_count": 8,
+  "check_count": 16,
+  "failed_check_count": 0,
+  "failed_checks": [],
+  "theorem_status": {
+    "local_metric_signature": true,
+    "homeward_alignment": true,
+    "negative_controls_recorded": true,
+    "dependency_verified": true,
+    "replay_stable": true,
+    "perturbation_profile_recorded": true,
+    "robust_but_not_absolute": true
+  },
+  "limits": {
+    "global_compression_shadow_admitted": false,
+    "physical_gravity_claim": false,
+    "force_renderer_admitted": false,
+    "body_mutation": false,
+    "global_force_definition_complete": false
+  },
+  "source_artifacts": [
+    "artifacts/json/g900_force_compression_return_cell_metric_probe_001.v1.json",
+    "artifacts/json/g900_force_compression_return_cell_alignment_002.v1.json",
+    "artifacts/json/g900_force_compression_return_cell_home_contrast_003.v1.json",
+    "artifacts/json/g900_force_compression_return_cell_home_alignment_theorem_candidate_004.v1.json",
+    "artifacts/json/g900_force_compression_return_cell_theorem_verify_005.v1.json",
+    "artifacts/json/g900_force_compression_return_cell_replay_audit_006.v1.json",
+    "artifacts/json/g900_force_compression_return_cell_perturbation_audit_007.v1.json",
+    "artifacts/json/g900_force_compression_return_cell_robustness_profile_008.v1.json"
+  ],
+  "checks": {
+    "all_dependencies_exist": true,
+    "001_pass": true,
+    "001_compression_signature": true,
+    "002_pass": true,
+    "002_homeward_alignment": true,
+    "003_pass": true,
+    "003_target_home_exact": true,
+    "004_pass": true,
+    "005_verified": true,
+    "005_failed_zero": true,
+    "006_replay_pass": true,
+    "006_all_replays": true,
+    "007_perturbation_recorded": true,
+    "007_baseline_pass": true,
+    "008_profile_pass": true,
+    "008_finite_tolerance": true
+  }
+}
