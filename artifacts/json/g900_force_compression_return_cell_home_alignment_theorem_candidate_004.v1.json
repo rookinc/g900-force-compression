@@ -1,0 +1,43 @@
+{
+  "schema": "g900.force.compression.return_cell.home_alignment.theorem_candidate",
+  "version": "0.1",
+  "status": "theorem_candidate_recorded",
+  "audit_pass": true,
+  "statement": "For the admitted return-cell one-step information transport, the source support maps exactly into the admitted target-home slot set.",
+  "compression_subtype": "homeward_alignment_compression",
+  "support": {
+    "metric_probe": "artifacts/json/g900_force_compression_return_cell_metric_probe_001.v1.json",
+    "alignment_record": "artifacts/json/g900_force_compression_return_cell_alignment_002.v1.json",
+    "home_contrast": "artifacts/json/g900_force_compression_return_cell_home_contrast_003.v1.json"
+  },
+  "metric_result": {
+    "mean_distance_to_home": {
+      "before": 2.75,
+      "after": 0.0
+    },
+    "support_radius": {
+      "before": 5,
+      "after": 0
+    },
+    "support_size": {
+      "before": 3,
+      "after": 3
+    },
+    "support_entropy": {
+      "before": 1.5,
+      "after": 1.5
+    }
+  },
+  "negative_controls": {
+    "source_home_compresses": false,
+    "six_nine_pair_compresses": false,
+    "full_return_cell_is_discriminating": false
+  },
+  "boundary": {
+    "local_theorem_candidate_only": true,
+    "global_compression_shadow_admitted": false,
+    "physical_gravity_claim": false,
+    "force_renderer_admitted": false,
+    "body_mutation": false
+  }
+}
