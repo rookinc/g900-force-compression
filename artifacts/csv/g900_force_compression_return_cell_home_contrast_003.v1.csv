@@ -1,0 +1,7 @@
+home_id,home_slots,mean_before,mean_after,mean_delta,radius_before,radius_after,radius_delta,exact_home_after,mean_nonincreasing,radius_nonincreasing
+target_home,"[9, 12, 13]",2.75,0.0,-2.75,5,0,-5,True,True,True
+source_home,"[3, 6, 9]",0.0,2.5,2.5,0,4,4,False,False,False
+six_nine_pair,"[6, 9]",0.75,2.5,1.75,3,4,1,False,False,False
+return_cell_full,"[3, 6, 9, 12, 13]",0.0,0.0,0.0,0,0,0,True,True,True
+slot_zero,[0],5.25,3.5,-1.75,6,6,0,False,True,True
+opposite_anchors,"[0, 7, 14]",1.75,1.75,0.0,3,2,-1,False,True,True
