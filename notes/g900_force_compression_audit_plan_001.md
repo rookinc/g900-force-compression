@@ -41,6 +41,7 @@ Perturbation tests.
 Questions
 
 Does the receipt survive:
+
 - replay
 - root changes
 - nearby selector substitutions
