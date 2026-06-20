@@ -1,0 +1,29 @@
+{
+  "schema": "g900.force.compression.return_cell.robustness_profile",
+  "version": "0.1",
+  "status": "robustness_profile_recorded",
+  "audit_pass": true,
+  "source_artifact": "artifacts/json/g900_force_compression_return_cell_perturbation_audit_007.v1.json",
+  "perturbation_case_count": 24,
+  "signature_pass_count": 23,
+  "exact_home_after_count": 14,
+  "baseline_pass": true,
+  "baseline_exact": true,
+  "failure_cases": [
+    "target_rot_plus_5"
+  ],
+  "compression_subtype": "bounded_homeward_alignment_compression",
+  "interpretation": {
+    "robust": true,
+    "absolute": false,
+    "finite_tolerance_band": true,
+    "generic_artifact": false
+  },
+  "boundary": {
+    "robustness_profile_only": true,
+    "global_compression_shadow_admitted": false,
+    "physical_gravity_claim": false,
+    "force_renderer_admitted": false,
+    "body_mutation": false
+  }
+}
