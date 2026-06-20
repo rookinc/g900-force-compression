@@ -1,0 +1,357 @@
+{
+  "schema": "g900.force.compression.return_cell.perturbation",
+  "version": "0.1",
+  "status": "return_cell_perturbation_audit_recorded",
+  "audit_pass": true,
+  "case_count": 24,
+  "signature_pass_count": 23,
+  "exact_home_after_count": 14,
+  "baseline_pass": true,
+  "baseline_exact": true,
+  "cases": [
+    {
+      "case_id": "baseline",
+      "home_slots": [
+        9,
+        12,
+        13
+      ],
+      "mean_before": 2.75,
+      "mean_after": 0.0,
+      "radius_before": 5,
+      "radius_after": 0,
+      "signature": true,
+      "exact_home_after": true
+    },
+    {
+      "case_id": "source_rot_plus_1",
+      "home_slots": [
+        9,
+        12,
+        13
+      ],
+      "mean_before": 2.5,
+      "mean_after": 0.0,
+      "radius_before": 5,
+      "radius_after": 0,
+      "signature": true,
+      "exact_home_after": true
+    },
+    {
+      "case_id": "source_rot_plus_2",
+      "home_slots": [
+        9,
+        12,
+        13
+      ],
+      "mean_before": 1.75,
+      "mean_after": 0.0,
+      "radius_before": 4,
+      "radius_after": 0,
+      "signature": true,
+      "exact_home_after": true
+    },
+    {
+      "case_id": "source_rot_plus_3",
+      "home_slots": [
+        9,
+        12,
+        13
+      ],
+      "mean_before": 0.75,
+      "mean_after": 0.0,
+      "radius_before": 3,
+      "radius_after": 0,
+      "signature": true,
+      "exact_home_after": true
+    },
+    {
+      "case_id": "source_rot_plus_4",
+      "home_slots": [
+        9,
+        12,
+        13
+      ],
+      "mean_before": 1.0,
+      "mean_after": 0.0,
+      "radius_before": 2,
+      "radius_after": 0,
+      "signature": true,
+      "exact_home_after": true
+    },
+    {
+      "case_id": "source_rot_plus_5",
+      "home_slots": [
+        9,
+        12,
+        13
+      ],
+      "mean_before": 1.0,
+      "mean_after": 0.0,
+      "radius_before": 1,
+      "radius_after": 0,
+      "signature": true,
+      "exact_home_after": true
+    },
+    {
+      "case_id": "target_rot_plus_1",
+      "home_slots": [
+        9,
+        12,
+        13
+      ],
+      "mean_before": 2.75,
+      "mean_after": 0.5,
+      "radius_before": 5,
+      "radius_after": 1,
+      "signature": true,
+      "exact_home_after": false
+    },
+    {
+      "case_id": "target_rot_plus_2",
+      "home_slots": [
+        9,
+        12,
+        13
+      ],
+      "mean_before": 2.75,
+      "mean_after": 1.25,
+      "radius_before": 5,
+      "radius_after": 2,
+      "signature": true,
+      "exact_home_after": false
+    },
+    {
+      "case_id": "target_rot_plus_3",
+      "home_slots": [
+        9,
+        12,
+        13
+      ],
+      "mean_before": 2.75,
+      "mean_after": 1.75,
+      "radius_before": 5,
+      "radius_after": 3,
+      "signature": true,
+      "exact_home_after": false
+    },
+    {
+      "case_id": "target_rot_plus_4",
+      "home_slots": [
+        9,
+        12,
+        13
+      ],
+      "mean_before": 2.75,
+      "mean_after": 2.5,
+      "radius_before": 5,
+      "radius_after": 4,
+      "signature": true,
+      "exact_home_after": false
+    },
+    {
+      "case_id": "target_rot_plus_5",
+      "home_slots": [
+        9,
+        12,
+        13
+      ],
+      "mean_before": 2.75,
+      "mean_after": 3.5,
+      "radius_before": 5,
+      "radius_after": 5,
+      "signature": false,
+      "exact_home_after": false
+    },
+    {
+      "case_id": "home_rot_plus_1",
+      "home_slots": [
+        10,
+        13,
+        14
+      ],
+      "mean_before": 3.25,
+      "mean_after": 0.75,
+      "radius_before": 4,
+      "radius_after": 1,
+      "signature": true,
+      "exact_home_after": false
+    },
+    {
+      "case_id": "home_rot_plus_2",
+      "home_slots": [
+        11,
+        14,
+        0
+      ],
+      "mean_before": 3.75,
+      "mean_after": 1.25,
+      "radius_before": 5,
+      "radius_after": 2,
+      "signature": true,
+      "exact_home_after": false
+    },
+    {
+      "case_id": "home_rot_plus_3",
+      "home_slots": [
+        12,
+        0,
+        1
+      ],
+      "mean_before": 3.75,
+      "mean_after": 1.0,
+      "radius_before": 5,
+      "radius_after": 3,
+      "signature": true,
+      "exact_home_after": false
+    },
+    {
+      "case_id": "home_rot_plus_4",
+      "home_slots": [
+        13,
+        1,
+        2
+      ],
+      "mean_before": 3.25,
+      "mean_after": 1.5,
+      "radius_before": 4,
+      "radius_after": 4,
+      "signature": true,
+      "exact_home_after": false
+    },
+    {
+      "case_id": "home_rot_plus_5",
+      "home_slots": [
+        14,
+        2,
+        3
+      ],
+      "mean_before": 2.75,
+      "mean_after": 2.5,
+      "radius_before": 5,
+      "radius_after": 5,
+      "signature": true,
+      "exact_home_after": false
+    },
+    {
+      "case_id": "drop_row_0",
+      "home_slots": [
+        9,
+        12,
+        13
+      ],
+      "mean_before": 2.4285714285714284,
+      "mean_after": 0.0,
+      "radius_before": 5,
+      "radius_after": 0,
+      "signature": true,
+      "exact_home_after": true
+    },
+    {
+      "case_id": "drop_row_1",
+      "home_slots": [
+        9,
+        12,
+        13
+      ],
+      "mean_before": 3.142857142857143,
+      "mean_after": 0.0,
+      "radius_before": 5,
+      "radius_after": 0,
+      "signature": true,
+      "exact_home_after": true
+    },
+    {
+      "case_id": "drop_row_2",
+      "home_slots": [
+        9,
+        12,
+        13
+      ],
+      "mean_before": 2.7142857142857144,
+      "mean_after": 0.0,
+      "radius_before": 5,
+      "radius_after": 0,
+      "signature": true,
+      "exact_home_after": true
+    },
+    {
+      "case_id": "drop_row_3",
+      "home_slots": [
+        9,
+        12,
+        13
+      ],
+      "mean_before": 2.7142857142857144,
+      "mean_after": 0.0,
+      "radius_before": 5,
+      "radius_after": 0,
+      "signature": true,
+      "exact_home_after": true
+    },
+    {
+      "case_id": "drop_row_4",
+      "home_slots": [
+        9,
+        12,
+        13
+      ],
+      "mean_before": 2.4285714285714284,
+      "mean_after": 0.0,
+      "radius_before": 5,
+      "radius_after": 0,
+      "signature": true,
+      "exact_home_after": true
+    },
+    {
+      "case_id": "drop_row_5",
+      "home_slots": [
+        9,
+        12,
+        13
+      ],
+      "mean_before": 3.142857142857143,
+      "mean_after": 0.0,
+      "radius_before": 5,
+      "radius_after": 0,
+      "signature": true,
+      "exact_home_after": true
+    },
+    {
+      "case_id": "drop_row_6",
+      "home_slots": [
+        9,
+        12,
+        13
+      ],
+      "mean_before": 2.7142857142857144,
+      "mean_after": 0.0,
+      "radius_before": 5,
+      "radius_after": 0,
+      "signature": true,
+      "exact_home_after": true
+    },
+    {
+      "case_id": "drop_row_7",
+      "home_slots": [
+        9,
+        12,
+        13
+      ],
+      "mean_before": 2.7142857142857144,
+      "mean_after": 0.0,
+      "radius_before": 5,
+      "radius_after": 0,
+      "signature": true,
+      "exact_home_after": true
+    }
+  ],
+  "interpretation_boundary": "Perturbation audit describes robustness and fragility. It does not admit a compression shadow.",
+  "boundary": {
+    "perturbation_audit_only": true,
+    "compression_shadow_admitted": false,
+    "physical_gravity_claim": false,
+    "force_renderer_admitted": false,
+    "body_mutation": false
+  }
+}
