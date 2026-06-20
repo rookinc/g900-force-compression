@@ -1,0 +1,34 @@
+{
+  "schema": "g900.force.compression.metric_readiness",
+  "version": "0.1",
+  "status": "metric_readiness_ledger_recorded",
+  "audit_pass": true,
+  "surface_count": 2,
+  "metric_ready_count": 1,
+  "surfaces": [
+    {
+      "surface_id": "return_cell_transport",
+      "receipt_strength": "verified_local_checkpoint",
+      "explicit_slot_history": true,
+      "receipt_home_available": true,
+      "metric_ready": true,
+      "current_status": "metric_tested"
+    },
+    {
+      "surface_id": "six_nine_return_home",
+      "receipt_strength": "strong_receipt_ledger",
+      "explicit_slot_history": false,
+      "receipt_home_available": true,
+      "metric_ready": false,
+      "current_status": "needs_slot_history_bridge"
+    }
+  ],
+  "next_required_artifact": "six_nine_slot_history_bridge_012",
+  "boundary": {
+    "readiness_ledger_only": true,
+    "compression_shadow_admitted": false,
+    "physical_gravity_claim": false,
+    "force_renderer_admitted": false,
+    "body_mutation": false
+  }
+}
